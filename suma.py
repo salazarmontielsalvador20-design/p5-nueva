@@ -14,7 +14,7 @@ def main():
 			a = float(input("Número 1: "))
 			b = float(input("Número 2: "))
 		except ValueError:
-			print("Entrada no permitida")
+			print("Entrada invalida")
 			return
 
 	print(a + b)
